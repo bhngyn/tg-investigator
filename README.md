@@ -223,7 +223,7 @@ These need a Telegram login that **you** create and run yourself; the web UI nev
 
 ## Data and licences
 
-- **Project licence:** proprietary, all rights reserved. Private; not licensed for use, copying or redistribution.
+- **Project licence:** © 2026 bhngyn, all rights reserved (see [LICENSE](LICENSE)). The code is public to read, but no licence is granted to use, copy, modify or redistribute it without written permission. Third-party components keep their own licences (see [NOTICE.md](NOTICE.md)).
 - **`dictionary.db` is a derivative of OpenStreetMap (© OpenStreetMap contributors, ODbL 1.0) and GeoNames (CC BY 4.0).** The database file is offered under the **ODbL 1.0** regardless of the code licence: if you redistribute it or a database built from it, you must keep the attribution and offer it under the ODbL (share-alike). GeoNames requires attribution. Full details, dependency licences and the note on the slur lexicon are in [NOTICE.md](NOTICE.md); build sources and hashes are in `investigator/data/gazetteer/README.md`.
 - Attribution to carry with reports that used place expansion: © OpenStreetMap contributors, ODbL 1.0, https://www.openstreetmap.org/copyright; GeoNames, CC BY 4.0, https://www.geonames.org.
 
