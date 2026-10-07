@@ -1,0 +1,23 @@
+.venv/
+*.session
+*.session-journal
+tgspider_out/
+__pycache__/
+workspace/
+rusich_run/
+workspace-qa/
+# large or machine-specific (rebuild instead of committing)
+investigator/data/gazetteer/raw/
+tools/models/.venv/
+ui/node_modules/
+*.osm.pbf
+.DS_Store
+.claude/
+tests/local/
+*_run/
+tests/tmp*/
+tests/results.json
+# investigation-specific data: built or kept locally, never published
+investigator/data/gazetteer/dictionary.db
+investigator/data/gazetteer/curated/
+investigator/data/lexicon/

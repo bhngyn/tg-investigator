@@ -1,0 +1,5 @@
+# App (Python 3.12+; developed on 3.14). Install: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+fastapi==0.141.1
+uvicorn==0.54.0
+Telethon==1.45.0      # logged-in features only (tgmedia.py, tgcomments.py, tgdiscover.py)
+cryptg==0.6.0         # optional: faster Telethon downloads

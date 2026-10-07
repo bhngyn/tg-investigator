@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="x-token" content="__TOKEN__">
+<meta name="referrer" content="no-referrer">
+<title>Telegram Investigator</title>
+<link rel="stylesheet" href="/static/style.css">
+<script src="/static/graph.js" defer></script>
+<script src="/static/app.js" defer></script>
+<script src="/static/comments.js" defer></script>
+<script src="/static/accounts.js" defer></script>
+</head>
+<body>
+<div id="app">
+  <nav id="side">
+    <div class="brand">
+      <div class="brand-mark">TI</div>
+      <div><div class="brand-name">Telegram Investigator</div><div class="brand-sub">Local workspace</div></div>
+    </div>
+    <a href="#/" data-nav="overview">Overview</a>
+    <a href="#/search" data-nav="search">Search</a>
+    <a href="#/comments" data-nav="comments">Comments</a>
+    <a href="#/accounts" data-nav="accounts">Accounts</a>
+    <a href="#/review" data-nav="review">Review <span class="nav-count" id="nav-unreviewed"></span></a>
+    <a href="#/channels" data-nav="channels">Channels</a>
+    <a href="#/network" data-nav="network">Network</a>
+    <a href="#/jobs" data-nav="jobs">Collect <span class="nav-count" id="nav-jobs"></span></a>
+    <a href="#/settings" data-nav="settings">Settings</a>
+    <div id="side-monitor" hidden></div>
+    <div class="side-foot">
+      <div id="exposure-meter" title="Media items revealed today"></div>
+      <div id="whoami"></div>
+    </div>
+  </nav>
+  <main id="main"></main>
+  <aside id="drawer" hidden>
+    <div class="drawer-head">
+      <button class="btn ghost" data-action="close-drawer" title="Close (Esc)">✕ Close</button>
+      <div class="drawer-nav">
+        <button class="btn ghost" data-action="drawer-prev" title="Previous (k)">↑</button>
+        <button class="btn ghost" data-action="drawer-next" title="Next (j)">↓</button>
+      </div>
+    </div>
+    <div id="drawer-body"></div>
+  </aside>
+</div>
+<div id="toast" hidden></div>
+</body>
+</html>
